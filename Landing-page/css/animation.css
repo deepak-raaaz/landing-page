@@ -1,0 +1,825 @@
+#main_circle{
+    animation: circleanimation 7.5s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes circleanimation{
+    0%{
+        scale: 1;
+    }
+    4%,17%{
+        scale: 1.1;
+    }
+    25%{
+        scale: 1;
+    }
+}
+
+#outline1{
+    animation: outline1animation 7.5s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes outline1animation{
+    0%{
+        scale: 1;
+    }
+    12%{
+        scale: 1.7;
+        stroke-opacity: .27;
+    }
+    25%{
+        scale: 1.7;
+        stroke-opacity: 0;
+    }
+    100%{
+        stroke-opacity: 0;
+    }
+}
+
+#outline2{
+    animation: outline2animation 7.5s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes outline2animation{
+    0%{
+        scale: 1;
+        stroke-opacity: 0.27;
+    }
+    12%{
+        scale: 2.3;
+        stroke-opacity: .27;
+    }
+    20%{
+        stroke-opacity: 0;
+    }
+    100%{
+        scale: 2.3;
+        stroke-opacity: 0;
+    }
+}
+
+/* ----------------- 1 ---------------- */
+#main-circle-a1{
+    animation: circleanimation-a1 7.5s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: 1.5s;
+}
+
+@keyframes circleanimation-a1{
+    0%{
+        scale: 1;
+    }
+    4%,17%{
+        scale: 1.1;
+    }
+    25%{
+        scale: 1;
+    }
+}
+
+#outline1-a1{
+    animation: outline1animation-a1 7.5s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: 1.5s;
+}
+@keyframes outline1animation-a1{
+    0%{
+        scale: 1;
+    }
+    12%{
+        scale: 1.7;
+        stroke-opacity: .27;
+    }
+    25%{
+        scale: 1.7;
+        stroke-opacity: 0;
+    }
+    100%{
+        stroke-opacity: 0;
+    }
+}
+
+#outline1-a2{
+    animation: outline1animation-a2 7.5s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: 1.5s;
+}
+@keyframes outline1animation-a2{
+    0%{
+        scale: 1;
+        stroke-opacity: 0.27;
+    }
+    12%{
+        scale: 2.3;
+        stroke-opacity: .27;
+    }
+    20%{
+        stroke-opacity: 0;
+    }
+    100%{
+        scale: 2.3;
+        stroke-opacity: 0;
+    }
+}
+
+/* ---------------------- 2 -------------------  */
+#main-circle-a2{
+    animation: circleanimation-a2 7.5s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: 2.5s;
+}
+
+@keyframes circleanimation-a2{
+    0%{
+        scale: 1;
+    }
+    4%,17%{
+        scale: 1.1;
+    }
+    25%{
+        scale: 1;
+    }
+}
+
+#outline2-a1{
+    animation: outline2animation-a1 7.5s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: 2.5s;
+}
+@keyframes outline2animation-a1{
+    0%{
+        scale: 1;
+    }
+    12%{
+        scale: 1.7;
+        stroke-opacity: .27;
+    }
+    25%{
+        scale: 1.7;
+        stroke-opacity: 0;
+    }
+    100%{
+        stroke-opacity: 0;
+    }
+}
+
+#outline2-a2{
+    animation: outline2animation-a2 7.5s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: 2.5s;
+}
+@keyframes outline2animation-a2{
+    0%{
+        scale: 1;
+        stroke-opacity: 0.27;
+    }
+    12%{
+        scale: 2.3;
+        stroke-opacity: .27;
+    }
+    20%{
+        stroke-opacity: 0;
+    }
+    100%{
+        scale: 2.3;
+        stroke-opacity: 0;
+    }
+}
+
+/* ---------------------- 3 -------------------  */
+#main-circle-a3{
+    animation: circleanimation-a3 7.5s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: 4s;
+}
+
+@keyframes circleanimation-a3{
+    0%{
+        scale: 1;
+    }
+    4%,17%{
+        scale: 1.1;
+    }
+    25%{
+        scale: 1;
+    }
+}
+
+#outline3-a1{
+    animation: outline3animation-a1 7.5s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: 4s;
+}
+@keyframes outline3animation-a1{
+    0%{
+        scale: 1;
+    }
+    12%{
+        scale: 1.7;
+        stroke-opacity: .27;
+    }
+    25%{
+        scale: 1.7;
+        stroke-opacity: 0;
+    }
+    100%{
+        stroke-opacity: 0;
+    }
+}
+
+#outline3-a2{
+    animation: outline3animation-a2 7.5s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: 4s;
+}
+@keyframes outline3animation-a2{
+    0%{
+        scale: 1;
+        stroke-opacity: 0.27;
+    }
+    12%{
+        scale: 2.3;
+        stroke-opacity: .27;
+    }
+    20%{
+        stroke-opacity: 0;
+    }
+    100%{
+        scale: 2.3;
+        stroke-opacity: 0;
+    }
+}
+
+/* ---------------------- 4 -------------------  */
+#main-circle-a4{
+    animation: circleanimation-a4 7.5s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: 5s;
+}
+
+@keyframes circleanimation-a4{
+    0%{
+        scale: 1;
+    }
+    4%,17%{
+        scale: 1.1;
+    }
+    25%{
+        scale: 1;
+    }
+}
+
+#outline4-a1{
+    animation: outline4animation-a1 7.5s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: 5s;
+}
+@keyframes outline4animation-a1{
+    0%{
+        scale: 1;
+    }
+    12%{
+        scale: 1.7;
+        stroke-opacity: .27;
+    }
+    25%{
+        scale: 1.7;
+        stroke-opacity: 0;
+    }
+    100%{
+        stroke-opacity: 0;
+    }
+}
+
+#outline4-a2{
+    animation: outline4animation-a2 7.5s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: 5s;
+}
+@keyframes outline4animation-a2{
+    0%{
+        scale: 1;
+        stroke-opacity: 0.27;
+    }
+    12%{
+        scale: 2.3;
+        stroke-opacity: .27;
+    }
+    20%{
+        stroke-opacity: 0;
+    }
+    100%{
+        scale: 2.3;
+        stroke-opacity: 0;
+    }
+}
+
+/* ---------------------- 5 -------------------  */
+#main-circle-a5{
+    animation: circleanimation-a5 7.5s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: 6s;
+}
+
+@keyframes circleanimation-a5{
+    0%{
+        scale: 1;
+    }
+    4%,17%{
+        scale: 1.1;
+    }
+    25%{
+        scale: 1;
+    }
+}
+
+#outline5-a1{
+    animation: outline5animation-a1 7.5s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: 6s;
+}
+@keyframes outline5animation-a1{
+    0%{
+        scale: 1;
+    }
+    12%{
+        scale: 1.7;
+        stroke-opacity: .27;
+    }
+    25%{
+        scale: 1.7;
+        stroke-opacity: 0;
+    }
+    100%{
+        stroke-opacity: 0;
+    }
+}
+
+#outline5-a2{
+    animation: outline4animation-a2 7.5s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: 6s;
+}
+@keyframes outline5animation-a2{
+    0%{
+        scale: 1;
+        stroke-opacity: 0.27;
+    }
+    12%{
+        scale: 2.3;
+        stroke-opacity: .27;
+    }
+    20%{
+        stroke-opacity: 0;
+    }
+    100%{
+        scale: 2.3;
+        stroke-opacity: 0;
+    }
+}
+
+
+/* ---------------------- B-1 -------------------  */
+/* ----------------- 1 ---------------- */
+#main-circle-b1{
+    animation: circleanimation-a1 29s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes circleanimation-b1{
+    0%{
+        scale: 1;
+    }
+    1%,4%{
+        scale: 1.1;
+    }
+    6%{
+        scale: 1;
+    }
+}
+
+#outline1-b1{
+    animation: outline1animation-b1 29s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes outline1animation-b1{
+    0%{
+        scale: 1;
+    }
+    3%{
+        scale: 1.7;
+        stroke-opacity: .27;
+    }
+    6%{
+        scale: 1.7;
+        stroke-opacity: 0;
+    }
+    100%{
+        stroke-opacity: 0;
+    }
+}
+
+#outline1-b2{
+    animation: outline1animation-b2 29s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes outline1animation-b2{
+    0%{
+        scale: 1;
+        stroke-opacity: 0.27;
+    }
+    3%{
+        scale: 2.3;
+        stroke-opacity: .27;
+    }
+    5%{
+        stroke-opacity: 0;
+    }
+    100%{
+        scale: 2.3;
+        stroke-opacity: 0;
+    }
+}
+
+/* ---------------------- 2 -------------------  */
+#main-circle-b2{
+    animation: circleanimation-b2 29s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: 7.5s;
+}
+
+@keyframes circleanimation-b2{
+    0%{
+        scale: 1;
+    }
+    1%,4%{
+        scale: 1.1;
+    }
+    6%{
+        scale: 1;
+    }
+}
+
+#outline2-b1{
+    animation: outline2animation-b1 29s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: 7.5s;
+}
+@keyframes outline2animation-b1{
+    0%{
+        scale: 1;
+    }
+    3%{
+        scale: 1.7;
+        stroke-opacity: .27;
+    }
+    6%{
+        scale: 1.7;
+        stroke-opacity: 0;
+    }
+    100%{
+        stroke-opacity: 0;
+    }
+}
+
+#outline2-b2{
+    animation: outline2animation-b2 29s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: 7.5s;
+}
+@keyframes outline2animation-b2{
+    0%{
+        scale: 1;
+        stroke-opacity: 0.27;
+    }
+    3%{
+        scale: 2.3;
+        stroke-opacity: .27;
+    }
+    5%{
+        stroke-opacity: 0;
+    }
+    100%{
+        scale: 2.3;
+        stroke-opacity: 0;
+    }
+}
+
+/* ---------------------- 3 -------------------  */
+#main-circle-b3{
+    animation: circleanimation-b3 29s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: 15s;
+}
+
+@keyframes circleanimation-b3{
+    0%{
+        scale: 1;
+    }
+    1%,4%{
+        scale: 1.1;
+    }
+    6%{
+        scale: 1;
+    }
+}
+
+#outline3-b1{
+    animation: outline3animation-b1 29s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: 15s;
+}
+@keyframes outline3animation-b1{
+    0%{
+        scale: 1;
+    }
+    3%{
+        scale: 1.7;
+        stroke-opacity: .27;
+    }
+    6%{
+        scale: 1.7;
+        stroke-opacity: 0;
+    }
+    100%{
+        stroke-opacity: 0;
+    }
+}
+
+#outline3-b2{
+    animation: outline3animation-b2 29s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: 15s;
+}
+@keyframes outline3animation-b2{
+    0%{
+        scale: 1;
+        stroke-opacity: 0.27;
+    }
+    3%{
+        scale: 2.3;
+        stroke-opacity: .27;
+    }
+    5%{
+        stroke-opacity: 0;
+    }
+    100%{
+        scale: 2.3;
+        stroke-opacity: 0;
+    }
+}
+
+/* ---------------------- 4 -------------------  */
+#main-circle-b4{
+    animation: circleanimation-b4 29s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: 22s;
+}
+
+@keyframes circleanimation-b4{
+    0%{
+        scale: 1;
+    }
+    1%,4%{
+        scale: 1.1;
+    }
+    6%{
+        scale: 1;
+    }
+}
+
+#outline4-b1{
+    animation: outline4animation-b1 29s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: 22s;
+}
+@keyframes outline4animation-b1{
+    0%{
+        scale: 1;
+    }
+    3%{
+        scale: 1.7;
+        stroke-opacity: .27;
+    }
+    6%{
+        scale: 1.7;
+        stroke-opacity: 0;
+    }
+    100%{
+        stroke-opacity: 0;
+    }
+}
+
+#outline4-b2{
+    animation: outline4animation-b2 29s linear infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+    animation-delay: 22s;
+}
+@keyframes outline4animation-b2{
+    0%{
+        scale: 1;
+        stroke-opacity: 0.27;
+    }
+    3%{
+        scale: 2.3;
+        stroke-opacity: .27;
+    }
+    5%{
+        stroke-opacity: 0;
+    }
+    100%{
+        scale: 2.3;
+        stroke-opacity: 0;
+    }
+}
+
+
+
+
+
+.subline1{
+    stroke-dasharray: 250;
+    stroke-dashoffset: 750;
+}
+
+.line-a1{
+    animation: line1Anilmation 30s linear infinite;
+}
+@keyframes line1Anilmation{
+    0%{
+        /* stroke-dasharray: 250; */
+        stroke-dashoffset: 250;
+    }
+    2.5%{
+        stroke-dashoffset: 750;
+    }
+}
+
+.line-a2{
+    animation: line1Anilmationa2 30s linear infinite;
+    animation-delay: 7.5s;
+}
+@keyframes line1Anilmationa2{
+    0%{
+        /* stroke-dasharray: 250; */
+        stroke-dashoffset: 250;
+    }
+    2.5%{
+        stroke-dashoffset: 750;
+    }
+}
+
+.line-a3{
+    animation: line1Anilmationa3 30s linear infinite;
+    animation-delay: 15s;
+}
+@keyframes line1Anilmationa3{
+    0%{
+        /* stroke-dasharray: 250; */
+        stroke-dashoffset: 250;
+    }
+    2.5%{
+        stroke-dashoffset: 750;
+    }
+}
+
+.line-a4{
+    animation: line1Anilmationa4 30s linear infinite;
+    animation-delay: 22.5s;
+}
+@keyframes line1Anilmationa4{
+    0%{
+        /* stroke-dasharray: 250; */
+        stroke-dashoffset: 250;
+    }
+    2.5%{
+        stroke-dashoffset: 750;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.subline2{
+    stroke-dasharray: 250;
+    stroke-dashoffset: 250;
+}
+
+.line-b1{
+    animation: line2Anilmation 7.5s linear infinite;
+    animation-direction: reverse;
+    animation-delay: 1s;
+}
+@keyframes line2Anilmation{
+    90%{
+        /* stroke-dasharray: 250; */
+        stroke-dashoffset: 250;
+    }
+    100%{
+        stroke-dashoffset: 750;
+    }
+}
+
+.line-b2{
+    animation: line2Anilmationb2 7.5s linear infinite;
+    animation-direction: reverse;
+    animation-delay: 2s;
+}
+@keyframes line2Anilmationb2{
+    90%{
+        /* stroke-dasharray: 250; */
+        stroke-dashoffset: 250;
+    }
+    100%{
+        stroke-dashoffset: 750;
+    }
+}
+
+.line-b3{
+    animation: line2Anilmationb3 7.5s linear infinite;
+    animation-direction: reverse;
+    animation-delay: 3s;
+}
+@keyframes line2Anilmationb3{
+    90%{
+        /* stroke-dasharray: 250; */
+        stroke-dashoffset: 250;
+    }
+    100%{
+        stroke-dashoffset: 750;
+    }
+}
+
+.line-b4{
+    animation: line2Anilmationb4 7.5s linear infinite;
+    animation-direction: reverse;
+    animation-delay: 4s;
+}
+@keyframes line2Anilmationb4{
+    90%{
+        /* stroke-dasharray: 250; */
+        stroke-dashoffset: 250;
+    }
+    100%{
+        stroke-dashoffset: 750;
+    }
+}
+
+.line-b5{
+    animation: line2Anilmationb5 7.5s linear infinite;
+    animation-direction: reverse;
+    animation-delay: 5s;
+}
+@keyframes line2Anilmationb5{
+    90%{
+        /* stroke-dasharray: 250; */
+        stroke-dashoffset: 250;
+    }
+    100%{
+        stroke-dashoffset: 750;
+    }
+}
+
+
+
+#svg-heading-text{
+    font-family: 'Roboto Mono', monospace;
+    font-size: .6rem;
+}
